@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="bmu.a67thmilestone.disclaimer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc1"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc2"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc3"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc4"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc5"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc6"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc7"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/disc8"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="@color/colorPrimary"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/stranger"/>
+    </LinearLayout>
+</ScrollView>

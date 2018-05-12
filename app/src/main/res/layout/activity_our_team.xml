@@ -1,0 +1,2867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bmu.a67thmilestone.OurTeam">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Core Team"
+            android:textSize="25dp"
+            android:textColor="#151515"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/djimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/danish" />
+
+                <TextView
+                    android:id="@+id/djname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/djimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="Danish Jameel"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/djjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/djname"
+                    android:layout_centerHorizontal="true"
+                    android:text="General Seceretary" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/djjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailone"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="maildj"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedone"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkeddj"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/djjob"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="djfb"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/manavimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/manav" />
+
+                <TextView
+                    android:id="@+id/manavname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/manavimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="Manav"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Manavjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/manavname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Overall Fest Coordinator" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Manavjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/manavmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailmanav"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/manavlinked"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedmanav"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbmanav"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagesankalp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/sankalp" />
+
+                <TextView
+                    android:id="@+id/sankalpname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagesankalp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sankalp Pasricha"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sankalpjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sankalpname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Overall Fest Coordinator" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sankalpjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/sankalpmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/sankalpjob"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsankalp"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedsankalp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedsankalp"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbsankalp"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/tbimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/tushar" />
+
+                <TextView
+                    android:id="@+id/tbname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tbimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="Tushar Bhatia"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tbjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tbname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Overall Fest Coordinator" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tbjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/tbmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="tbmail"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/tblinked"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedtb"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="tbfb"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/akhilimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/akhil" />
+
+                <TextView
+                    android:id="@+id/akhilname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/akhilimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="Akhil Reddy"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/akhiljob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/akhilname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Overall Fest Coordinator" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/akhiljob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/akhilmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailakhil"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedakhil"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedakhil"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="akhilfb"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagesharath"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/sharath" />
+
+                <TextView
+                    android:id="@+id/namesharath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagesharath"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sharath K Chandra"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sharathjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namesharath"
+                    android:layout_centerHorizontal="true"
+                    android:text="Deputy General Secretary" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sharathjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/sharathmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsharath"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedsharath"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedsharath"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbsharath"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/bhargavaimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/bhargava" />
+
+                <TextView
+                    android:id="@+id/bhargavaname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bhargavaimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="N.S. Bhargava"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bhargavajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bhargavaname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Deputy General Secretary" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bhargavajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/bhargavamail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailbhargava"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedbhargava"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedbhargava"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbbhargava"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/lovishimage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/lovish" />
+
+                <TextView
+                    android:id="@+id/lovishname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lovishimage"
+                    android:layout_centerHorizontal="true"
+                    android:text="Lovish Wadhwa"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lovishjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lovishname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Junior Fest Co-ordinator" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lovishjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/maillovish"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="maillovish"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedlovish"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedlovish"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/lovishjob"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="lovishfb"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sponsorship Team"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagesamhitha"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/samhitha" />
+
+                <TextView
+                    android:id="@+id/namesamhitha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagesamhitha"
+                    android:layout_centerHorizontal="true"
+                    android:text="Samhitha Madala"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samhithajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namesamhitha"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/samhithajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/samhithamail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsamhitha"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedsamhitha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/samhithajob"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedsamhitha"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbsamhitha"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagethomas"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/thomasabraham" />
+                <TextView
+                    android:id="@+id/namethomas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagethomas"
+                    android:layout_centerHorizontal="true"
+                    android:text="Thomas Abraham"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/thomasjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namethomas"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thomasjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/thomasmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailthomas"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedthomas"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedthomas"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbthomas"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center">
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagehimanshi"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/himanshi" />
+
+                <TextView
+                    android:id="@+id/himanshiname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagehimanshi"
+                    android:layout_centerHorizontal="true"
+                    android:text="Himanshi Thawrani"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/himanshijob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/himanshiname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/himanshijob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/himanshimail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailhimanshi"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedhimanshi"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedhimanshi"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbhimanshi"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design Team"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagesreekar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/sreekar" />
+
+                <TextView
+                    android:id="@+id/sreekarname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagesreekar"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sreekar Reddy"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sreekarjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sreekarname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sreekarjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/sreekarmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsreekar"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedsreekar"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedsreekar"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbsreekar"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content Team"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageharshad"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/harshad" />
+
+                <TextView
+                    android:id="@+id/harshadname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageharshad"
+                    android:layout_centerHorizontal="true"
+                    android:text="Harshad Kalantri"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/harshadjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/harshadname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/harshadjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/harshadmail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailharshad"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedharshad"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedharshad"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbharshad"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagenikhitha"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/nikhitha" />
+
+                <TextView
+                    android:id="@+id/namenikhitha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagenikhitha"
+                    android:layout_centerHorizontal="true"
+                    android:text="A. Nikhitha"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nikhithajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namenikhitha"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nikhithajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailnikhitha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailnikhitha"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkednikhitha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkednikhitha"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbnikhitha"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social Media Team"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageaastha"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/aastha" />
+                <TextView
+                    android:id="@+id/aasthaname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageaastha"
+                    android:layout_centerHorizontal="true"
+                    android:text="Aastha Jain"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aasthajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aasthaname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aasthajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/aasthamail"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailaastha"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedaastha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedaastha"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbaastha"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagekiran"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/kiran" />
+
+                <TextView
+                    android:id="@+id/namekiran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagekiran"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sai Kiran"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/kiranjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namekiran"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kiranjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailkiran"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailkiran"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedkiran"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedkiran"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbkiran"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageshubham"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/shubham" />
+
+                <TextView
+                    android:id="@+id/shubhamname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageshubham"
+                    android:layout_centerHorizontal="true"
+                    android:text="Shubham Dhingra"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/shubhamjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shubhamname"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shubhamjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailshubham"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailshubham"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedshubham"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/shubhamjob"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedshubham"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbshubham"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technical Team"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagenishit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/nishit11" />
+
+                <TextView
+                    android:id="@+id/namenishit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagenishit"
+                    android:layout_centerHorizontal="true"
+                    android:text="Nishit Garg"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nishitjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namenishit"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nishitjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailnishit"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailnishit"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkednishit"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkednishit"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbnishit"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagenaman"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/naman" />
+
+                <TextView
+                    android:id="@+id/namenaman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagenaman"
+                    android:layout_centerHorizontal="true"
+                    android:text="Naman Khetawat"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/namanjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namenaman"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namanjob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailnaman"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailnaman"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkednaman"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkednaman"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbnaman"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Talent Management Team"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageshreya"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/shreya" />
+                <TextView
+                    android:id="@+id/nameshreya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageshreya"
+                    android:layout_centerHorizontal="true"
+                    android:text="Shreya Mathur"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/shreyajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nameshreya"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shreyajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailshreya"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailshreya"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedshreya"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedshreya"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbshreya"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagesharma"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/sharma" />
+
+                <TextView
+                    android:id="@+id/namesharma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagesharma"
+                    android:layout_centerHorizontal="true"
+                    android:text="Aastha Sharma"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sharmajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namesharma"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sharmajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailsharma"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsharma"
+                            android:src="@drawable/gmaillogo" />
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedsharma"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedsharma"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbsharma"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Public Relations Team"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagenatasha"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/natasha" />
+                <TextView
+                    android:id="@+id/namenatasha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagenatasha"
+                    android:layout_centerHorizontal="true"
+                    android:text="K. Natasha Dora"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/natashajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namenatasha"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/natashajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailnatasha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailnatasha"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkednatasha"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkednatasha"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbnatasha"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imagemahima"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/mahima" />
+
+                <TextView
+                    android:id="@+id/namemahima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagemahima"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mahima Chopra"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mahimajob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namemahima"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mahimajob"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/mailmahima"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailmahima"
+                            android:src="@drawable/gmaillogo" />
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/linkedmahima"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedmahima"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbmahima"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decorations Team"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/image1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/sablok" />
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image1"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mehak Sablok"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text1"
+                    android:layout_centerHorizontal="true"
+                    android:text="Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text2"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/icon1"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailsablok"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/icon2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon1"
+                            android:layout_weight="1"
+                            android:onClick="linkedsablok"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="1"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon2"
+                            android:layout_weight="1"
+                            android:onClick="fbsablok"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ourteamshape">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/image10"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/tanya" />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image10"
+                    android:layout_centerHorizontal="true"
+                    android:text="Tanya Agarwal"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text10"
+                    android:layout_centerHorizontal="true"
+                    android:text="Co-Convenor" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text20"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/icon10"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:onClick="mailtanya"
+                            android:src="@drawable/gmaillogo" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:id="@+id/icon20"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text20"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon10"
+                            android:layout_weight="1"
+                            android:onClick="linkedtanya"
+                            android:src="@drawable/linkedin" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="7dp"
+                            android:background="#000000" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_below="@+id/text2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/icon20"
+                            android:layout_weight="1"
+                            android:onClick="fbtanya"
+                            android:src="@drawable/facebook" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/teamsil"/>
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

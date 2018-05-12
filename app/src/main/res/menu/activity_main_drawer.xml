@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Social Connectivity">
+        <menu>
+
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/insta"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+
+        </menu>
+    </item>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/univ_nav"
+                android:title="About The University" />
+            <item
+                android:id="@+id/nav_sponsors"
+                android:icon="@drawable/sponsor"
+                android:title="Sponsors" />
+
+
+            <item
+                android:id="@+id/nav_festdetails"
+                android:icon="@drawable/fest_nav"
+                android:title="About the Fest" />
+            <item
+                android:id="@+id/nav_disclaimer"
+                android:icon="@drawable/disclaimer_nav"
+                android:title="Disclaimer" />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/devs_nav"
+                android:title="Developers" />
+
+            <item
+                android:id="@+id/nav_mentors"
+                android:icon="@drawable/mentor_nav"
+                android:title="Mentors" />
+
+
+        </menu>
+    </item>
+
+</menu>

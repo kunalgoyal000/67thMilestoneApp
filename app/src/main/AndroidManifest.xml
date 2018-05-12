@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bmu.a67thmilestone">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".OurTeam"
+            android:label="Our Team"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".shape"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".event_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Developers"
+            android:label="Developers"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="Maps"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUniversity"
+            android:label="About The University"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".current_sponsors"
+            android:label="Sponsors"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".aboutthe_fest"
+            android:label="About The Fest"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Fee_details"
+            android:label="Fee Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".battle_of_bands"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".pronites"
+            android:label="Pronites"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".fashion_crave"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".rc_nitro"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".theatre_phantamonica"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".beat_the_street"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".hack_bmu"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".planet_power_challenge"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".schedule"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".JunkyardWars"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".GeneralQuiz"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".VirtualStockMarket"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".SlamPoetry"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".TreasureHunt"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".blog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".robo_soccer"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".robo_race"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".robo_wars"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".BMU_MasterChef"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Line_follower"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Aerial_Drones"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Mechathing"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".BMU_Pichers"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Grappling_Tournament"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".TSEC_Summit"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Battle_of_Gamerz"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Kairos"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".Rihaai"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".schedulenew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mentors"
+            android:label="Mentors"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".disclaimer"
+            android:label="Disclaimer"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Favourites"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".HallsofSummer"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".dance_en_solo"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".BrainweaveIot"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".BrainweaveRobotics"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".schedule" />
+        </activity>
+        <activity
+            android:name=".PushNotificationActivity"
+            android:label="Notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070006000911",
+    "firebase_url": "https://thmilestone-d0263.firebaseio.com",
+    "project_id": "thmilestone-d0263",
+    "storage_bucket": "thmilestone-d0263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070006000911:android:b80c0a475b637dff",
+        "android_client_info": {
+          "package_name": "bmu.a67thmilestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070006000911-a9vev821t69mbthptv4f4jdu4f7ae71j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bmu.a67thmilestone",
+            "certificate_hash": "95909ccef56dd21076b20fcaf68f2ed7cb385c0b"
+          }
+        },
+        {
+          "client_id": "1070006000911-gkgovlmovlp2e2105ajgner6944nma73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlDCLxnbV_wqZ5nPcOISvLaie2wZW1iHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070006000911-gkgovlmovlp2e2105ajgner6944nma73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

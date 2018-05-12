@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutthe_fest"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/fest"
+        android:scaleType="fitXY"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/about_the_fest"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="#000000"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#9E9E9E"
+                    android:layout_margin="4dp"
+                    />
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/about_the_fest1"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="#000000"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#9E9E9E"
+                    android:layout_margin="4dp"
+                    />
+
+                <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ext:documentView_antialias="true"
+                    ext:documentView_cacheConfig="auto_quality"
+                    ext:documentView_hyphen="-"
+                    ext:documentView_lineHeightMultiplier="1.5"
+                    ext:documentView_maxLines="100"
+                    ext:documentView_insetPadding="10dp"
+                    ext:documentView_insetPaddingBottom="10dp"
+                    ext:documentView_insetPaddingLeft="10dp"
+                    ext:documentView_insetPaddingRight="10dp"
+                    ext:documentView_insetPaddingTop="10dp"
+                    ext:documentView_reverse="false"
+                    ext:documentView_text="@string/about_the_fest2"
+                    ext:documentView_textAlignment="justified"
+                    ext:documentView_textColor="#000000"
+                    ext:documentView_textFormat="plain"
+                    ext:documentView_textSize="17dp"
+                    ext:documentView_textSubPixel="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

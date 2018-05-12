@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/colorPrimary"/>
+
+
+    <item>
+
+        <bitmap
+            android:alpha="0.7"
+            android:gravity="center"
+            android:src="@drawable/drones"/>
+
+    </item>
+
+
+    <item
+        android:right="-300dp"
+        android:left="0dp"
+        android:bottom="-300dp"
+        android:top="300dp">
+
+
+        <rotate
+            android:pivotY="100%"
+            android:pivotX="0%"
+            android:fromDegrees="-10">
+
+
+            <shape
+                android:shape="rectangle">
+
+                <solid
+                    android:color="#ffffff"/>
+
+            </shape>
+
+        </rotate>
+
+    </item>
+
+</layer-list>
